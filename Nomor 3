@@ -1,0 +1,18 @@
+program Nomor_3;
+
+var
+v :integer;
+i ,hasil:real;
+
+
+begin
+writeln('Nomor_3');
+writeln('Hambatan Sebuah Toaster');
+writeln('Menghitung Hambatan');
+
+v:=110;
+i:=2.8;
+
+    hasil:= v/i;
+    writeln('Hasil =', hasil:1:2, ' A');
+end.
